@@ -1,0 +1,37 @@
+/* Make the heading and navigation links display on one line */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(210, 123, 123);
+}
+
+/* Flexbox style for the body container */
+body {
+    display: flex;
+    justify-content: space-between; /* Adds space between the heading and links */
+    align-items: center;  /* Vertically aligns the content */
+    padding: 20px;
+}
+
+h1 {
+    margin: 0; /* Removes default margin of h1 */
+    font-size: 24px; /* You can adjust the size as needed */
+}
+
+.nav-links {
+    display: flex;  /* Makes the links appear in a row */
+}
+
+.nav-links a {
+    margin-right: 20px;  /* Space between links */
+    text-decoration: none;  /* Removes underline */
+    color: black; /* Text color */
+}
+
+/* Optional: add a hover effect */
+.nav-links a:hover {
+    color: #007bff;  /* Changes the color on hover */
+}
+img{
+    margin: 100px;
+}
